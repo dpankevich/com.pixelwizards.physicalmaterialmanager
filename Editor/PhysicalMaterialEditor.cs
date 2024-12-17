@@ -84,15 +84,15 @@ namespace PixelWizards.PhysicalMaterialManager
                 GUILayout.Space(5f);
                 GUILayout.Label(Loc.HEADER_PHYSICMATERIAL, EditorStyles.boldLabel, GUILayout.Width(150f));
                 GUILayout.Space(5f);
-                GUILayout.Label(Loc.HEADER_STATIC, EditorStyles.boldLabel, GUILayout.Width(150f));
-                GUILayout.Space(5f);
                 GUILayout.Label(Loc.HEADER_DYNAMIC, EditorStyles.boldLabel, GUILayout.Width(150f));
+                GUILayout.Space(5f);
+                GUILayout.Label(Loc.HEADER_STATIC, EditorStyles.boldLabel, GUILayout.Width(150f));
                 GUILayout.Space(5f);
                 GUILayout.Label(Loc.HEADER_BOUNCINESS, EditorStyles.boldLabel, GUILayout.Width(150f));
                 GUILayout.Space(5f);
-                GUILayout.Label(Loc.HEADER_BOUNCECOMBINE, EditorStyles.boldLabel, GUILayout.Width(120f));
-                GUILayout.Space(5f);
                 GUILayout.Label(Loc.HEADER_FRICTIONCOMBINE, EditorStyles.boldLabel, GUILayout.Width(120f));
+                GUILayout.Space(5f);
+                GUILayout.Label(Loc.HEADER_BOUNCECOMBINE, EditorStyles.boldLabel, GUILayout.Width(120f));
                 
             }
             GUILayout.EndHorizontal();
