@@ -103,28 +103,8 @@ namespace PixelWizards.PhysicalMaterialManager
             GUILayout.Space(10f);
             GUILayout.BeginVertical();
             {
-                GUILayout.Space(10f);
-
-                GUILayout.Label(Loc.WINDOW_HEADER, EditorStyles.boldLabel);
-                GUILayout.Label(Loc.HELP_HEADER, EditorStyles.helpBox);
-
-                GUILayout.Space(10f);
-
                 if (Control.Library != null)
                 {
-                    GUILayout.Space(10f);
-
-                    GUILayout.BeginHorizontal();
-                    {
-                        GUILayout.Space(10f);
-
-                        GUILayout.Label(Loc.LABEL_GRAVITY, GUILayout.Width(150f));
-                        Control.Library.gravity = EditorGUILayout.Vector3Field(GUIContent.none, Control.Library.gravity);       // read in the gravity desired
-                        Physics.gravity = Control.Library.gravity;          // update global gravity
-                    }
-                    GUILayout.EndHorizontal();
-                    GUILayout.Space(10f);
-
                     if( Control.Library.entries.Count > 0)
                     {
                         RenderColumnHeaders();
