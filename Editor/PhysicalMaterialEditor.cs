@@ -10,7 +10,7 @@ namespace PixelWizards.PhysicalMaterialManager
     /// </summary>
     public static class PhysicalMaterialLoc
     {
-        public const string MENUITEMPATH = "Window/Audio/Physical Material Editor";
+        public const string MENUITEMPATH = "Window/Physical Material Editor";
         public const string WINDOWTITLE = "Physical Material Editor";
         public const string PROJECTROOT = "Prefab Root:";
 
