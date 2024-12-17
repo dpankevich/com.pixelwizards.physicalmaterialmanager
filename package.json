@@ -3,7 +3,7 @@
   "displayName": "PixelWizards - Physical Material Manager",
   "version": "0.1.0-preview.9",
   "unity": "2018.4",
-  "description": "Centralized Manager for Physic Materials - access via Window->Audio->Physic Material Editor",
+  "description": "Centralized Manager for Physic Materials - access via Window->Physic Material Editor",
   "author": {
     "name": "Pixel Wizards",
     "email": "support@pixelwizards.ca",
@@ -14,9 +14,9 @@
 		"Physic Materials",
 		"Quality of Life"
 	],
-	"documentationUrl": "https://github.com/PixelWizards/com.pixelwizards.physicalmaterialmanager/blob/master/README.md",
+	"documentationUrl": "https://github.com/dpankevich/com.pixelwizards.physicalmaterialmanager/blob/master/README.md",
 	"repository": {
-		"url": "git@github.com:PixelWizards/com.pixelwizards.physicalmaterialmanager.git",
+		"url": "git@github.com:dpankevich/com.pixelwizards.physicalmaterialmanager.git",
 		"type": "git"
 	}
 }
